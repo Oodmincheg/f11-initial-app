@@ -1,8 +1,9 @@
-const Todo = ({ title, date }) => {
+const Todo = ({ title, priority, description }) => {
   return (
     <div>
-      <p>{title}</p>
-      <p>{date}</p>
+      <p>Title: {title}</p>
+      <p>Priority: {priority}</p>
+      <p>Description: {description}</p>
     </div>
   );
 };
